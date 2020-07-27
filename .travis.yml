@@ -137,6 +137,7 @@ matrix:
 # test on Power
     - os: linux
       arch: ppc64le
+      env: OPJ_CI_ARCH=ppc64le
       dist: bionic
 
 install:
